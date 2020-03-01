@@ -1,6 +1,11 @@
 ---
 label: test_template1
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - content/posts/my_second_post.md
